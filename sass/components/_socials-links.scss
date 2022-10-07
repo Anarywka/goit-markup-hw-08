@@ -1,0 +1,43 @@
+.social-list {
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+
+
+    &__link {
+            padding: 12px;
+            display: block;
+            width: 44px;
+            height: 44px;
+            border-radius: 50%;
+        }
+
+    &__link--card {
+        color: #afb1b8;
+        background-color: #ffffff;
+        transition-property: color, background-color;
+        transition-duration: 250ms;
+        transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+    }
+
+
+    &__link--footer {
+        color: var(--secondary-text-color);
+    
+        background: rgba(255, 255, 255, 0.1);
+        transition-property: background-color;
+        transition-duration: 250ms;
+        transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+    }
+
+    &__link:hover,
+    &__link:focus {
+        color: var(--secondary-text-color);
+        background-color: var(--accent-color);
+    }
+
+    &__svg {
+        fill: currentColor;
+        padding: 0;
+    }
+}

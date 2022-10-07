@@ -1,0 +1,92 @@
+
+.footer-form {
+    
+
+    @media (min-width: 1200px){
+    margin-left: 93px;
+
+    display: flex;
+    align-items: baseline;
+    white-space: nowrap;}
+
+    &__title {
+        display: block;
+        text-align: center;
+        font-style: normal;
+            font-weight: 700;
+            font-size: 14px;
+            line-height: 1.14;
+            color: var(--secondary-text-color);
+            margin-bottom: 20px;
+            margin-top:60px;
+
+        @media (min-width: 1200px){
+            display: block;
+            margin-top:0;
+        }
+        }
+
+    &__input {
+        width: 450px;
+            height: 50px;
+            margin-bottom: 20px;
+            display: block;
+                // margin: auto;
+
+        @media (min-width: 1200px){
+        width: 358px;
+        
+        margin-right: 12px;
+        padding-left: 16px;
+        border: 1px solid rgba(255, 255, 255, 0.3);
+    
+        border-radius: 4px;
+        outline: transparent;
+        background: inherit;
+    
+        transition-property: border-color;
+        transition-duration: 250ms;
+        transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);}
+    }
+
+    &__input:focus,
+    &__input:hover {
+        border-color: var(--accent-color);
+        cursor: pointer;
+    }
+
+    &__svg {
+        margin-left: 10px;
+        padding: 0;
+        text-align: center;
+    }
+                
+}
+
+.footer-form-btn {
+    color: var(--secondary-text-color);
+        background-color: var(--accent-color);
+        cursor: pointer;
+        font-weight: 700;
+         font-size: 16px;
+         line-height: 1.88;
+         letter-spacing: 0.06em;
+        padding-top: 10px;
+            padding-bottom: 10px;
+            padding-left: 48px;
+            padding-right: 38px;
+            box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+            border-radius: 4px;
+            border: none;
+            font-family: inherit;
+
+            display: block;
+            margin: auto;
+    @media (min-width: 1200px){
+       
+            
+           
+            min-width: 124px;
+    }
+    
+}

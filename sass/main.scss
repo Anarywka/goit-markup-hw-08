@@ -1,0 +1,36 @@
+// Utils
+
+@import "./utils/vars";
+@import "./utils/normalize";
+@import "./utils/visually-hiden";
+
+
+// Base
+@import "./base/reset";
+@import "./base/base";
+@import "./base/container";
+
+
+
+// Layouts
+@import "./layouts/header";
+@import "./layouts/nav";
+@import "./layouts/solutions";
+@import "./layouts/benefits";
+@import "./layouts/what-section";
+@import "./layouts/section-cards";
+@import "./layouts/customers";
+@import "./layouts/footer";
+@import "./layouts/find-us";
+@import "./layouts/projects";
+@import "./layouts/site-contacts";
+
+// Components
+@import "./components/logo";
+@import "./components/buttons";
+@import "./components/modal-window";
+@import "./components/register-form";
+@import "./components/socials-links";
+@import "./components/footer-form";
+@import "./components/overlay";
+@import "./components/menu";

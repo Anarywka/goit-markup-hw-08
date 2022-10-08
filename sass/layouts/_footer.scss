@@ -3,27 +3,28 @@
     padding-top: 60px;
     padding-bottom: 60px;
     background-color: var(--secondary-background-color);
-    @media (min-width: 1200px) {
+    @media screen and (min-width: 1200px) {
     white-space: nowrap;}
 
 
     &__container {
-        @media (min-width: 1200px) {
+        @media screen and (min-width: 1200px) {
             display: flex;
                 align-items: baseline;
    }
 }
     &__div {
-        @media (min-width: 1200px) {
+        @media screen and (min-width: 1200px) {
         margin-right: 70px;}
     }
     
 
     &__address {
         margin-top: 20px;
-        text-align: center;
+        @media screen and (max-width:767px){
+        text-align: center;}
         @media screen and (min-width: 768px) {
-            text-align: left;
+            // text-align: left;
         // display: block;
         // margin-right: auto;
          width: 231px;}
@@ -32,6 +33,7 @@
         @media screen and (max-width:479px) {
             display: flex;
                 justify-content: center;
+                align-items: center;
         }
         
     }

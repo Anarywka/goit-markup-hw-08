@@ -29,11 +29,14 @@
     border-color: rgba(238, 238, 238, 1);
     padding: 6px 22px;
     min-width: 73px;
-    text-align: center;
+    
     font-size: 16px;
     line-height: 1.62;
     cursor: pointer;
     font-family: inherit;
+    @media screen and (min-width:1200px) {
+        text-align: center;
+    }
 }
 
 .buttons-projects:not(:last-child) {

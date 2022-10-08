@@ -142,28 +142,6 @@
 
 }
 
-// .link-socials::after{
-    // content: '';
-    //  display: block;
-
-
-    // content: "|";
-    //     position: absolute;
-    //     width: 1px;
-    //     color: rgba(33, 33, 33, 0.2);
-    //     height: 22px;
-    //     top: 0%;
-    //         right: -10%;}
-// .link-socials::after:not(:last-child) {
-// content: "|";
-//     position: absolute;
-//     width: 1px;
-//     color: rgba(33, 33, 33, 0.2);
-//     height: 22px;
-//     top: 0%;
-//     right: -10%;
-
-// }
 .menu_tel {
     font-weight: 500;
         font-size: 34px;
@@ -183,6 +161,7 @@
         line-height: calc(28 / 24);
         letter-spacing: 0.02em;
         color: #757575;
+       
     
         @media screen and (max-width: 480px) {}
 }

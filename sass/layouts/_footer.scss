@@ -1,44 +1,45 @@
-//  @media (min-width: 768px)
+
 .footer {
     padding-top: 60px;
     padding-bottom: 60px;
     background-color: var(--secondary-background-color);
-    @media screen and (min-width: 1200px) {
+    @media screen and (min-width: 1200px){
     white-space: nowrap;}
 
 
     &__container {
-        @media screen and (min-width: 1200px) {
+        @media screen and (min-width: 1200px){
             display: flex;
-                align-items: baseline;
-   }
+                align-items: baseline;}
 }
     &__div {
-        @media screen and (min-width: 1200px) {
+        display: flex;
+            justify-content: flex-start;
+        @media screen and (min-width: 1200px){
         margin-right: 70px;}
     }
     
 
     &__address {
         margin-top: 20px;
-        @media screen and (max-width:767px){
-        text-align: center;}
-        @media screen and (min-width: 768px) {
-            // text-align: left;
-        // display: block;
-        // margin-right: auto;
-         width: 231px;}
+        text-align: center;
+        // @media screen and (max-width:767px){
+        // text-align: center;}
+
+        @media(min-width: 768px){
+        display: flex;
+        justify-content: flex-start;
+        width: 231px;}
     }
     &__logo{
+       text-align: center;
         @media screen and (max-width:479px) {
-            display: flex;
-                justify-content: center;
-                align-items: center;
+            justify-content: flex-start;
         }
         
     }
 
-    &__item:not(:last-child) {
+    &__item:not(:last-child){
         @media screen and (min-width: 1200px) {
             margin-bottom: 9px;
     }

@@ -4,7 +4,7 @@
     margin-left: auto;
     margin-right: auto;
     background-image: linear-gradient(to right, var(--overlay), var(--overlay)),
-        url('../images/overlay/_sm-1x-background-min.jpg');
+        url('.//images/overlay/_sm-1x-background-min.jpg');
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
@@ -15,7 +15,7 @@
         (min-resolution: 192dpi),
         (min-resolution: 2dppx) 
         
-               { background-image:linear-gradient(to right, var(--overlay), var(--overlay)), url('../images/overlay/_sm-2x-background-min.jpg');}
+               { background-image:linear-gradient(to right, var(--overlay), var(--overlay)), url('.//images/overlay/_sm-2x-background-min.jpg');}
 
    
 
@@ -24,12 +24,12 @@
     @media screen and (min-width:481px) {
         height: 400px;
         background-image: linear-gradient(to right, var(--overlay), var(--overlay)),
-                url('../images/overlay/_md-1x_background-min.jpg');
+                url('.//images/overlay/_md-1x_background-min.jpg');
         @media (min-device-pixel-ratio: 2),
             (min-resolution: 192dpi),
             (min-resolution: 2dppx)
             {
-                    background-image: linear-gradient(to right, var(--overlay), var(--overlay)), url('../images/overlay/_md-2x-background-min.jpg');
+                    background-image: linear-gradient(to right, var(--overlay), var(--overlay)), url('.//images/overlay/_md-2x-background-min.jpg');
                 }
     }
    
@@ -37,12 +37,12 @@
     @media screen and (min-width:769px) {
         height: 600px;
         background-image: linear-gradient(to right, var(--overlay), var(--overlay)),
-                url('../images/overlay/_l_1x_background-min.jpg');
+                url('.//images/overlay/_l_1x_background-min.jpg');
         @media (min-device-pixel-ratio: 2),
             (min-resolution: 192dpi),
             (min-resolution: 2dppx)
             {
-                    background-image: linear-gradient(to right, var(--overlay), var(--overlay)), url('../images/overlay/_l-2x-background-min.jpg');
+                    background-image: linear-gradient(to right, var(--overlay), var(--overlay)), url('.//images/overlay/_l-2x-background-min.jpg');
                 }
     }
 }

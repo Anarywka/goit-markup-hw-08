@@ -84,40 +84,12 @@
     color: var(--section-text-color);
 }
 
-.conteiner {
-
-    width: 480px;
-    padding-left: 15px;
-    padding-right: 15px;
-    margin-left: auto;
-    margin-right: auto;
-
-    // tablet styles
-
-    @media screen and (min-width: 768px) {
-        width: 768px;
-    }
-
-    // desktop styles
-
-    @media screen and (min-width:1200px) {
-        width: 1200px;
-
-    }
-
-
-    // width: 1200px;
-    // padding-left: 15px;
-    // padding-right: 15px;
-
-
-
-}
-
 .list-projects {
+   justify-content: center;
     @media screen and (min-width:1200px) {
         display: flex;
             flex-wrap: wrap;
+            align-items: baseline;
     }
 }
 
@@ -127,6 +99,7 @@
     transition-property: box-shadow;
     transition-duration: 250ms;
     transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+
 
     @media screen and (min-width: 768px) {
             width: 354px;

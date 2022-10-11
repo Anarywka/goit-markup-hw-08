@@ -8,15 +8,20 @@
     margin-top: 60px;
 
     text-align: center;
-
-    // @media (min-width: 1200px) {
-
-    // }
+    @media screen and (min-width: 768px) and (max-width: 1199px) {
+    text-align: center;
+    margin-top: 0;}
 }
-// .find {
-//     @media screen and (min-width: 768px) {
-//         display: block;
-//         margin-right: auto;
-        
-//     }
-// }
+.find {
+ @media screen and (min-width: 768px) and (max-width: 1199px) {
+     width: 206px;
+     height: 80px;
+
+     position: absolute;
+     right: 74px;
+     top: 5px;
+     
+     
+
+ }
+}

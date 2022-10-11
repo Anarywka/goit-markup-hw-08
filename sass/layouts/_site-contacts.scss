@@ -54,12 +54,12 @@
         // }
        
     }
-    &__link:hover,
-    &__link:focus {
+    .site-contacts__link:hover,
+    .site-contacts__link:focus {
         color: var(--accent-color);
     }
 
-    &__svg {
+    .site-contacts__svg {
         margin-right: 10px;
         fill: currentColor;
     }

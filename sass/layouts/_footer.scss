@@ -3,42 +3,54 @@
     padding-top: 60px;
     padding-bottom: 60px;
     background-color: var(--secondary-background-color);
+    // position: relative;
     @media screen and (min-width: 1200px){
     white-space: nowrap;}
 
 
     &__container {
+        position: relative;
+        padding: 0;
         @media screen and (min-width: 1200px){
             display: flex;
-                align-items: baseline;}
+            align-items: baseline;}
 }
-    &__div {
-        display: flex;
-            justify-content: flex-start;
-        @media screen and (min-width: 1200px){
-        margin-right: 70px;}
-    }
-    
+   
 
-    &__address {
+.footer__address {
         margin-top: 20px;
         text-align: center;
+
         // @media screen and (max-width:767px){
         // text-align: center;}
 
-        @media(min-width: 768px){
+        @media (min-width: 768px) {
         display: flex;
         justify-content: flex-start;
         width: 231px;}
-    }
-    &__logo{
-       text-align: center;
-        @media screen and (max-width:479px) {
-            justify-content: flex-start;
+      }
+
+.footer__logo {
+    display: flex;
+    justify-content: center;
+
+    @media screen and (min-width: 768px) and (max-width: 1199px) {
+            display: flex;
+            width: 231px;
+            allign-items:center;
+    
         }
         
     }
-
+.footer__div {
+    @media screen and (min-width: 768px) and (max-width: 1199px) {
+        display: block;
+        width: 232px;
+        margin-left: 76px;
+        // justify-content: flex-start;
+        
+    }
+}
     &__item:not(:last-child){
         @media screen and (min-width: 1200px) {
             margin-bottom: 9px;
@@ -66,3 +78,16 @@
         color: var(--footer-color);
     }
 }
+// .footer-adress-logo {
+//     @media screen and (min-width: 768px) and (max-width: 1199px) {
+//         display: block;
+//         width: 232px;
+//             height: 79px;
+//             display: block;
+
+//             // position: absolute;
+//             // top: 60px;
+//             // left: 76px;
+        
+//     }
+// }

@@ -5,6 +5,11 @@
     margin: 0;
     margin-bottom: 60px;
     flex-wrap: wrap;
+
+    @media screen and (min-width: 768px) and (max-width: 1199px) {
+        display: none;
+    }
+
     @media screen and (min-width:1200px){
     justify-content: center;
     margin-bottom: 50px;
@@ -36,15 +41,20 @@
     padding: 6px 22px;
     min-width: 73px;
     flex-wrap: wrap;
+    margin-bottom: 15px;
     
     font-size: 16px;
     line-height: 1.62;
     cursor: pointer;
     font-family: inherit;
 
-    @media screen and (min-width:1200px) {
-        text-align: center;
+    @media screen and (min-width: 1200px ) {
+        display: flex;
+        justify-content: center;
     }
+}
+.buttons-projects:last-child {
+    margin-bottom: 0;
 }
 
 .buttons-projects:not(:last-child) {

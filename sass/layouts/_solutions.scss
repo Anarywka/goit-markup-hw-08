@@ -4,10 +4,11 @@
     text-align: center;
     background-color: var(--secondary-background-color);
 
-@media screen and (min-width: 1200px) {
-    padding-top: 200px;
-    padding-bottom: 200px;
-}
+
+        @media screen and (min-width: 1200px) {
+        padding-top: 200px;
+        padding-bottom: 200px;
+    }
 
     &__title {
             display: block;

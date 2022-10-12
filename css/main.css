@@ -1714,7 +1714,6 @@ img {
 }
 @media screen and (max-width: 768px) {
   .overlay {
-    height: 400px;
     background-image: -webkit-gradient(linear, left top, right top, from(var(--overlay)), to(var(--overlay))), url("../images/overlay/md-1x-background-min.jpg");
     background-image: linear-gradient(to right, var(--overlay), var(--overlay)), url("../images/overlay/md-1x-background-min.jpg");
   }

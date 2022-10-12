@@ -24,7 +24,7 @@
 
 
     @media screen and (max-width:768px) {
-        height: 400px;
+        // height: 400px;
         background-image: linear-gradient(to right, var(--overlay), var(--overlay)),
                 url("../images/overlay/md-1x-background-min.jpg");
         @media (min-device-pixel-ratio: 2),

@@ -11,6 +11,13 @@
     &__container {
         position: relative;
         padding: 0;
+
+        @media screen and (min-width: 768px) and (max-width: 1199px){
+        display: flex;
+            align-items: baseline; 
+        flex-wrap: wrap;
+        justify-content: space-between;}
+        
         @media screen and (min-width: 1200px){
             display: flex;
             align-items: baseline;}
@@ -43,6 +50,9 @@
         
     }
 .footer__div {
+    @media (min-width:1200px) {
+        margin-right: 70px;
+    }
     @media screen and (min-width: 768px) and (max-width: 1199px) {
         display: block;
         width: 232px;

@@ -1,16 +1,32 @@
 
 .footer-form {
+
+    &__input:focus,
+    &__input:hover {
+            border-color: var(--accent-color);
+            cursor: pointer;
+        }
+    
+    &__svg {
+            margin-left: 10px;
+            padding: 0;
+            text-align: center;
+        }
     
     @media screen and (min-width: 768px) and (max-width: 1199px) {
         
-        display: block;}
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+    }
 
     @media screen and (min-width: 1200px){
     margin-left: 93px;
 
     display: flex;
     align-items: baseline;
-    white-space: nowrap;}
+    white-space: nowrap;
+    }
 
 
     &__title {
@@ -28,9 +44,10 @@
             
             margin-top:0;
         }
-        }
+    }
+}
 
-    .footer-form__input {
+.footer-form__input {
         height: 50px;
         display: flex;
 
@@ -44,7 +61,7 @@
             transition-duration: 250ms;
             transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
             
-        }
+        
 
 
         @media (max-width: 767px) {
@@ -60,6 +77,7 @@
         @media screen and (min-width: 768px) and (max-width: 1199px){
             display: block;
             min-width: 450px;
+            margin-bottom: 20px;
             
             margin-right: auto;
             margin-left: auto;
@@ -68,28 +86,17 @@
 
 
         @media (min-width: 1200px){
+            display: block;
         width: 358px;
         
         margin-right: 12px;
         padding-left: 16px;
-       
-    
         
+        }
     }
 
-    &__input:focus,
-    &__input:hover {
-        border-color: var(--accent-color);
-        cursor: pointer;
-    }
+  
 
-    &__svg {
-        margin-left: 10px;
-        padding: 0;
-        text-align: center;
-    }
-                
-}
 
 .footer-form-btn {
     color: var(--secondary-text-color);
@@ -116,7 +123,7 @@
 
     @media (min-width: 1200px){
        
-            
+            display: flex;
            
             min-width: 124px;
     }

@@ -50,17 +50,23 @@
         
     }
 .footer__div {
-    @media (min-width:1200px) {
-        margin-right: 70px;
-        
+    
+    @media (max-width:767px){
+        margin-bottom: 60px;
     }
+   
     @media screen and (min-width: 768px) and (max-width: 1199px) {
         display: block;
         width: 232px;
-        margin-left: 76px;
+        // margin-left: 76px;
         // justify-content: flex-start;
         
     }
+
+    @media (min-width:1200px) {
+             margin-right: 70px;
+    
+         }
 }
     &__item:not(:last-child){
         @media screen and (min-width: 1200px) {

@@ -505,7 +505,7 @@ img {
     margin-bottom: 30px;
   }
 }
-@media screen and (min-width: 768px) {
+@media screen and (min-width: 768px) and (max-width: 1199px) {
   .benefits__item {
     width: 354px;
   }
@@ -519,7 +519,6 @@ img {
 @media screen and (min-width: 1200px) {
   .benefits__item {
     width: 270px;
-    margin-bottom: 30px;
   }
   .benefits__item:not(:last-child) {
     margin-right: 30px;
@@ -825,16 +824,20 @@ img {
     allign-items: center;
   }
 }
-@media (min-width: 1200px) {
+@media (max-width: 767px) {
   .footer .footer__div {
-    margin-right: 70px;
+    margin-bottom: 60px;
   }
 }
 @media screen and (min-width: 768px) and (max-width: 1199px) {
   .footer .footer__div {
     display: block;
     width: 232px;
-    margin-left: 76px;
+  }
+}
+@media (min-width: 1200px) {
+  .footer .footer__div {
+    margin-right: 70px;
   }
 }
 @media screen and (min-width: 1200px) {
@@ -867,7 +870,6 @@ img {
   line-height: 1.14;
   color: var(--secondary-text-color);
   margin-bottom: 20px;
-  margin-top: 60px;
   text-align: center;
 }
 @media screen and (min-width: 768px) and (max-width: 1199px) {
@@ -881,6 +883,11 @@ img {
   .find {
     width: 206px;
     height: 80px;
+  }
+}
+@media (max-width: 1199px) {
+  .find {
+    margin-bottom: 60px;
   }
 }
 
@@ -1558,17 +1565,9 @@ img {
   padding: 0;
 }
 
-.footer-form__input:focus, .footer-form__input:hover {
-  border-color: var(--accent-color);
-  cursor: pointer;
-}
-.footer-form__svg {
-  margin-left: 10px;
-  padding: 0;
-  text-align: center;
-}
 @media screen and (min-width: 768px) and (max-width: 1199px) {
   .footer-form {
+    margin-top: 60px;
     display: block;
     margin-left: auto;
     margin-right: auto;
@@ -1578,6 +1577,15 @@ img {
   .footer-form {
     margin-left: 93px;
   }
+}
+.footer-form__input:focus, .footer-form__input:hover {
+  border-color: var(--accent-color);
+  cursor: pointer;
+}
+.footer-form__svg {
+  margin-left: 10px;
+  padding: 0;
+  text-align: center;
 }
 .footer-form__title {
   display: block;
@@ -1589,7 +1597,6 @@ img {
   line-height: 1.14;
   color: var(--secondary-text-color);
   margin-bottom: 20px;
-  margin-top: 60px;
 }
 @media screen and (min-width: 1200px) {
   .footer-form__title {
@@ -1619,7 +1626,6 @@ img {
     width: 100%;
     margin-bottom: 20px;
     display: block;
-    margin: auto;
   }
 }
 @media screen and (min-width: 768px) and (max-width: 1199px) {

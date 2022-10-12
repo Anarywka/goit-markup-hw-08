@@ -5,7 +5,7 @@
     line-height: 1.14;
     color: var(--secondary-text-color);
     margin-bottom: 20px;
-    margin-top: 60px;
+    // margin-top: 60px;
 
     text-align: center;
     @media screen and (min-width: 768px) and (max-width: 1199px) {
@@ -15,7 +15,11 @@
 .find {
  @media screen and (min-width: 768px) and (max-width: 1199px) {
     width: 206px;
-    height: 80px;
+    height: 80px;}
+
+    @media (max-width:1199px) {
+        margin-bottom: 60px;
+    }
 
     //  position: absolute;
     //  right: 74px;
@@ -25,5 +29,3 @@
 
  }
 
-
- }

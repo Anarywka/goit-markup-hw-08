@@ -1575,17 +1575,11 @@ img {
 @media screen and (min-width: 1200px) {
   .footer-form {
     margin-left: 93px;
-    display: -webkit-box;
-    display: -ms-flexbox;
-    display: flex;
-    -webkit-box-align: baseline;
-        -ms-flex-align: baseline;
-            align-items: baseline;
-    white-space: nowrap;
   }
 }
 .footer-form__title {
   display: block;
+  text-align: left;
   text-align: center;
   font-style: normal;
   font-weight: 700;
@@ -1597,7 +1591,7 @@ img {
 }
 @media screen and (min-width: 1200px) {
   .footer-form__title {
-    margin-top: 0;
+    text-align: left;
   }
 }
 
@@ -1675,6 +1669,14 @@ img {
     display: -ms-flexbox;
     display: flex;
     min-width: 124px;
+  }
+}
+
+@media (min-width: 1200px) {
+  .footer-form-group {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
   }
 }
 
